@@ -1,0 +1,124 @@
+body{
+	background-color: #e6e6e6;
+}
+.calculator{
+	background-color: #fff;
+	width: 330px;
+	text-align: center;
+	border-radius: 30px;
+	word-wrap: break-word;
+	padding-top: 20px;
+}
+.calculator h1{
+	font-weight: lighter;
+}
+.flex{
+	display: flex;
+	justify-content: space-around;
+}
+.flex .flex_col label{
+	color: #C7CCCE;
+	font-size: 18px;
+	font-weight: lighter;
+}
+.flex .flex_col select{
+	background-color: #E9EBEC;
+	padding: 10px 10px;
+	width: 112px;
+	border: none;
+	outline: none;
+	margin-top: 9px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+.circulation_col {
+	margin:20px 0px 40px 0px;
+}
+.circulation_col label {
+	color: #C7CCCE;
+	font-size: 18px;
+	font-weight: lighter;
+	display: block;
+}
+.circulation_col input{
+	color: #567911;
+	background: 0 0;
+	border: 0;
+	border-bottom: 1px solid #567911;
+	border-radius: 0;
+	margin: 0;
+	outline: none;
+	margin-top: 15px;
+	text-align: center;
+	width: 130px;
+	font-size: 35px;
+}
+.price_container {
+	background: rgba(68,82,90,.1);
+	padding-top: 20px;
+	text-align: center;
+}
+.price_cols{
+	display: flex;
+}
+.color_price {
+	margin-top: -20px;
+	text-align: left;
+}
+.price_col{
+	width: 45%;
+}
+.price_cols h2{
+	font-size: 18px;
+	color: #44528E;
+	font-weight: lighter;
+}
+.price_cols input{
+	text-align: right;
+	border:0;
+	outline: none;
+	width: 100%;
+	background-color: transparent;
+	font-size: 25px;
+	margin-top: 8px;
+	color: #445276;
+}
+.price_cols h4{
+	font-size: 14px;
+	color: #44528E;
+	margin-left: 25px;
+	font-weight: lighter;
+}
+.price_cols p{
+	font-size: 16px;
+	color: #44528E;
+	text-align: right;
+	font-weight: lighter;
+}
+.final_container{
+	background-color: #44525A;
+	color: #fff;
+	padding: 20px 0px 0px 0px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.final_cols {
+	display: flex;
+	flex-wrap: wrap;
+}
+.end{
+	text-align: end!important;
+}
+.final_col{
+	width: 45%;
+	text-align: center;
+}
+.final_col h3 {
+	font-weight: lighter;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.final_col p{
+	margin-top: 10px;
+	font-size:25px;
+}
