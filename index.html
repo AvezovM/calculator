@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="calculator_cols">
+		<div class="calculator_col calculator">
+			<h1>Расчет стоимости</h1>
+			<div class="flex">
+				<div class="flex_col">
+					<label for="square">Площадь</label>
+					<select name="square" id="square">
+						<option>До 155 см2</option>
+						<option>До 310 см2</option>
+						<option>До 620 см2</option>
+						<option>До 1250 см2</option>
+						<option>До 1620 см2</option>
+					</select>
+				</div>
+				<div class="flex_col">
+					<label for="square">Кол-во цветов</label>
+					<select name="color" id="color">
+						<option>1 цвет</option>
+						<option>2 цвета</option>
+						<option>3 цвета</option>
+						<option>4 цвета</option>
+						<option>5 цветов</option>
+						<option>6 цветов</option>
+					</select>
+				</div>
+			</div>
+			<div class="circulation_col">
+				<label for="circulation">Тираж</label>
+				<input type="text" id="circulation" min="10" value="10">
+			</div>
+			<div class="price_container">
+				<div class="price_cols">
+					<div class="price_col">
+						<h2>Нач.расходы</h2>
+					</div>
+					<div class="price_col">
+						<input type="text" value="900" id="start_exs">
+					</div>
+				</div>
+				<div class="price_cols">
+					<div class="price_col">
+						<h2>Цена за 1 шт</h2>
+					</div>
+					<div class="price_col">
+						<input type="text" value="190" id="price_for_one">
+					</div>		
+				</div>
+				<div class="price_cols color_price">
+					<div class="price_col">
+						<h4 class="text_application"></h4>
+					</div>
+					<div class="price_col ">
+						<p id="application"></p>
+					</div>		
+				</div>
+				<div class="price_cols color_price">
+					<div class="price_col">
+						<h4 class="text_percent"></h4>
+					</div>
+					<div class="price_col">
+						<p id="percent"></p>
+					</div>		
+				</div>
+			</div>
+			<div class="final_container">
+				<div class="final_cols">
+					<div class="final_col"><h3 class="final_number">Итого за 10 шт.</h3></div>
+					<div class="final_col end"><p class="final_price">2 800</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="calculator_col"></div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
